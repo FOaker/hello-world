@@ -28,7 +28,7 @@ class Profile extends StatelessWidget {
   final String name;
   final String picture;
 
-  Profile(this.logoutAction, this.name, this.picture);
+  Profile(this.logoutAction, this.name, this.picture,);
 
   @override
   Widget build(BuildContext context) {
